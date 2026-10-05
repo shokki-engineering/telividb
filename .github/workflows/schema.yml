@@ -31,7 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: the-protobuf-project/setup-google-api-linter@v1.0.0
+      - uses: the-protobuf-project/setup-google-api-linter@v1.1.0
         with:
           # Run from the module root, not the repository root.
           #
